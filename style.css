@@ -1,0 +1,47 @@
+img {
+    max-height: 350px;
+    margin-left: 10%;
+}
+
+html {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+li {
+    line-height: 40px;
+}
+
+p {
+    width: 60%;
+}
+
+.intro {
+    box-sizing: border-box;
+    margin-left: 10%;
+}
+
+.ing1 {
+    box-sizing: border-box;
+    display: flex;
+    display: inline-block;
+    align-items: center;
+    justify-content: left;
+    margin-left: 10%;
+}
+
+.ing2 {
+    box-sizing: border-box;
+    display: flex;
+    display: inline-block;
+    align-items: center;
+    justify-content: right;
+    float: right;
+    margin-right: 25%;
+    margin-top: 3em;
+    
+}
+
+.main {
+    margin-top: 8em;
+    margin-left: 10%;
+}
