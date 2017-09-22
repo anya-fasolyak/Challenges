@@ -1,6 +1,6 @@
 img {
     max-height: 350px;
-    margin-left: 33%;
+    margin-left: 10%;
 }
 
 html {
@@ -11,11 +11,49 @@ li {
     line-height: 40px;
 }
 
-p {
-    width: 60%;
+
+
+.intro {
+    box-sizing: border-box;
+    margin-left: 10%;
+    max-width: 600px;
 }
 
-.centered {
-    margin-left: 30%;
+.ing {
+  margin-left: 10%;
+  margin-top: 75px;
 }
 
+.flex {
+    box-sizing: border-box;
+    display: flex;
+    align-items: baseline;
+    flex-direction: row;
+    max-width: 829px;
+    margin-left: 10%;
+}
+
+.ing1 {
+    box-sizing: border-box;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-direction: column;
+    max-width: 400px;
+    margin-right: 6em;
+}
+
+.ing2 {
+    box-sizing: border-box;
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    max-width: 250px;
+
+}
+
+.main {
+    margin-top: 4em;
+    margin-left: 10%;
+    max-width: 600px;
+}
