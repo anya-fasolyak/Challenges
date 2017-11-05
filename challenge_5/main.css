@@ -1,0 +1,93 @@
+
+
+/*Fracture Animation*/
+.flex {
+    display: flex;
+    font-size: 3em;
+    justify-content: center;
+    font-family: sans-serif;   
+}
+
+.one { 
+  transform: translate;
+  animation: one 2s infinite;
+animation-direction: alternate;
+}
+
+.two {
+  transform: translate;
+  animation: two 2s infinite;
+  animation-direction: alternate;
+}
+
+.three {
+  transform: translate;
+  animation: three 2s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes one {
+  0% {
+    transform: translate(0);
+  }
+  100% {
+    transform: translate(-100px);
+  }
+}
+
+@keyframes two {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(20px, 50px);
+  }
+}
+
+@keyframes three {
+  0% {
+    transform: translate(0,0);
+  }
+  100% {
+    transform: translate(100px, 0px);
+  }
+}
+
+
+.stretch {
+    font-family: sans-serif;
+}
+
+/*Stabilize Animation*/
+
+
+.jiggy {
+  animation-name: jiggy-widdit;
+  animation-duration: 100ms;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes jiggy-widdit {
+  0% { 
+    transform: translateX(10px)
+  }
+  100% {
+    transform: translateX(-10px)
+  }
+}
+
+.jiggy:hover {
+  animation-name: jiggy-widdit;
+  animation-duration: 0ms;
+}
+
+
+
+
+
+
+
+
+
+
